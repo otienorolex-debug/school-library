@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Moringa School Library</h1>
+    </header>
+    <section id="search section">
+        <h2>Find a book</h2>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Enter book title or author">
+            <button type="submit">Search</button>
+        </form>
+        <div id="search-results"></div>
+    </section>
+    <section id="add-book-section">
+        <h2>Add a New Book</h2>
+        <form id="add-book-form">
+            <input type="text" id="book-title" placeholder="Book Title" required>
+            <input type="text" id="book-author" placeholder="Author" required>
+            <input type="text" id="book-isbn" placeholder="ISBN" required>
+            <button type="submit">Add Book</button>
+        </form>
+        <div id="add-book-message"></div>
+    </section>
+    <section id="book-list-section">
+        <h2>Book List</h2>
+        <ul id="book-list"></ul>
+        <a href="https://www.google.com/goto?url=CAESYAHrOzAVhxrAy91FRwKss5CLjzmFDPv-ot260BcSJYUYzOonGUPRik8aHyxNiC7J-_OEBGt6uX2bkVzlw89wwJnSoNwVeBsYfN2Opea8HVwwqA5EhdvsZP0ZGeMmno_qPw">Fiction</a>
+        <a href="https://www.google.com/goto?url=CAESaAHrOzAVnzqcwMslmArowWvj5K0c9fNW9307AZZ4Ckq3BTCLKgU4kOjyRC9TZWSRiOyHvPoY2IbuZPUD5i0rprO5b90FqOB_-eizwp_D1T5xUOB6YkUL88m4jZOou9QzjkkjA_YWwgjy">Non-Fiction</a>
+        <a href="https://www.google.com/goto?url=CAESZAHrOzAVeNw_uvr29RS87FePEmIPLah316eHh6MWCrfAMxQbsQuDLq_NZVy31zom2UERvYO2Sj47hHdxk9ZAI-7vofu8sJn1NRK2MTROqWYAW7byi4rT_nyAQMGF95l04wW9wKA">Science</a>
+        <a href="https://www.google.com/goto?url=CAESdAHrOzAVFtoH8Chy5b8IVBs1HJdieFb_rHWr5sNrdJ6we1LHLDA3KMFmRn4kMAuhTHIAbKITc6xjpxWFunKkwGfnKzZKq_-k4l0w9Nzb1I1pCfOMD0EZ__PKzE2jVTx8jBUiTuhGy5122KyfASTQ7zomcYXX">History</a>
+        <a href="https://www.google.com/goto?url=CAEScwHrOzAVDyTTdwYQiFDJV1fsJ5C6sm2yclYB7vCuvjdIpQCpN_BbHLyE52AwAWYAGkOs7QxlQ1cugrnx4B8uxt2DSrEVRpgsEyGPKTQRP7Z5UpGRyuZ1jp37a8N5QaimllgDNfplBXazz6ey7KzP4qPfZYY">Biography</a>
+<script src="index.js"></script>
+    </section>
+</body>
+</html>
